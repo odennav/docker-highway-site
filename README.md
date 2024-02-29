@@ -1,6 +1,6 @@
 # Deploying the Highway Website with Docker and Nginx
 
-Welcome to the repository dedicated to automating the deployment of the Highway website using Nginx!
+Deployment automated with bash scripts.
 
 ## Overview
 
