@@ -23,7 +23,7 @@ echo -e  "\n"
 
 echo "******************************************"
 echo "Deleting highway-image tagged to your docker hub local repository:"
-docker rmi victortreten/repo_test:highway
+docker rmi odennav/nginx:highway
 sleep 5
 echo -e  "\n"
 

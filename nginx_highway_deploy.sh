@@ -50,13 +50,13 @@ echo -e "\n"
 
 echo "**********************************************************"
 echo "Tag image to repository with highway tag"
-docker tag highway-image:highway victortreten/repo_test:highway
+docker tag highway-image:highway odennav/nginx:highway
 sleep 5
 echo -e "\n"
 
 echo "**********************************************************"
 echo "Push tagged image to dockerhub"
-docker push victortreten/repo_test:highway
+docker push odennav/nginx:highway
 sleep 5
 echo -e "\n"
 
