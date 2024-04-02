@@ -1,6 +1,6 @@
-# Deploying the Highway Website with Docker and Nginx
+# Deploying the Highway Website with Docker
 
-Deployment automated with bash scripts.
+Deployment automated with bash scripts in test environment.
 
 ## Overview
 
@@ -10,10 +10,6 @@ This repository includes scripts to push Docker images to your DockerHub reposit
 *******************
 ![](https://github.com/odennav/nginx-highway/blob/master/highway.jpeg) 
 
-## Special Credits
-
-Special thanks to [Tooplate](https://https://www.tooplate.com/) for free HTML templates
-and my awesome tutor [IsmailMuhammed2019](https://github.com/IsmailMuhammed2019)
 
 
 ## Getting Started
@@ -56,7 +52,7 @@ The provided Vagrant file simplifies VM Management.
 
    ```bash
    sudo apt-get install git
-   git clone https://github.com/odennav/nginx-highway.git
+   git clone https://github.com/odennav/docker-highway-site.git
    cd nginx-highway
    ```
 
