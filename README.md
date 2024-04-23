@@ -18,12 +18,13 @@ To enhance your learning experience, virtual machines (VMs) have been configured
 The provided Vagrant file simplifies VM Management.
 
 1. **Install Vagrant:**
+   
    If you haven't installed Vagrant, download it [here](https://www.vagrantup.com/downloads.html)
    and follow the installation instructions for your OS.
 
 2. **Install Docker:**
 
-   **For Windows:**
+   **On Windows:**
    If you intend to use git bash with Windows and not linux VM, install chocolatey [here](https://chocolatey.org/install).
 
    Open powershell terminal and use chocolatey to install git bash .
@@ -34,7 +35,7 @@ The provided Vagrant file simplifies VM Management.
    Install Docker Desktop by following the instructions [here](https://docs.docker.com/desktop/install/windows/).
 
 
-   **For Linux:**
+   **On Linux:**
    Install Docker Engine by following the instructions [here](https://docs.docker.com/desktop/install/linux/).
 
 
@@ -48,7 +49,8 @@ The provided Vagrant file simplifies VM Management.
    vagrant ssh cool
    ```
 5. **Clone the Repository:**
-    Clone this repository to your Linux VM to get the scripts and the Vagrant file. First install git in VM.
+    
+    Clone this repository to your Linux VM to get the scripts and the Vagrant file.     Install git in VM.
 
    ```bash
    sudo apt-get install git
@@ -63,16 +65,19 @@ The provided Vagrant file simplifies VM Management.
 
 7. **Download HTML template from Tooplate.com and extract webfiles to working directory**:
    ```bash
+   cd bash-scripts/
    bash get_html.sh
    ```
 8. **Automate deployment of highway website run with docker containers**:
    ```bash
+   cd bash-scripts/
    bash nginx_highway_deploy.sh
    ```
 
 ## Clean Up Deployment(Optional)
    **Delete docker images and containers used to host nginx website**:
    ```bash
+   cd bash-scripts/
    bash clean_up.sh
    ```
 ## Contribution Guidelines
