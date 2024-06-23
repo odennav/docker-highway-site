@@ -2,7 +2,7 @@
 
 -----
 
-[](https://github.com/odennav/nginx-highway/blob/master/docs/highway.jpeg) 
+![](https://github.com/odennav/nginx-highway/blob/master/docs/highway.jpeg) 
 
 -----
 
