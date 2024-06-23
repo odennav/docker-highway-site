@@ -1,4 +1,4 @@
-# Deploying the Highway Website with Docker
+# Deploy the Highway Website with Docker
 
 -----
 
